@@ -1,0 +1,22 @@
+{
+  "name": "phume",
+  "version": "1.0.0",
+  "description": "phumeh",
+  "main": "index.js",
+  "scripts": {
+    "test": "k"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phumeh1/Wushwekazy.git"
+  },
+  "keywords": [
+    "phume"
+  ],
+  "author": "phunyezwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Phumeh1/Wushwekazy/issues"
+  },
+  "homepage": "https://github.com/Phumeh1/Wushwekazy#readme"
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Keep Notes Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header>
+      <h1>Google Keep</h1>
+    </header>
+
+    <!-- Add Note Section -->
+    <div class="add-note">
+      <input type="text" id="note-title" placeholder="Title" />
+      <textarea id="note-content" placeholder="Take a note..."></textarea>
+      <button id="add-note-btn">Add Note</button>
+    </div>
+
+    <!-- Notes Container -->
+    <div id="notes-container" class="notes-container"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
