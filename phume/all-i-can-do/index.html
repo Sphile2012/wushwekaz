@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Things I Can Do</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    ul {
+      list-style-type: none;
+    }
+    li {
+      background-color: #f4f4f4;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #1da1f2;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0c85d0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Things I Can Do</h1>
+
+  <ul id="activities">
+    <li>I can code in HTML, CSS, JavaScript, React, and Node.js.</li>
+    <li>I can design websites and apps.</li>
+    <li>I can help with learning algorithms and data structures.</li>
+    <li>I can assist with IT and cloud networking concepts.</li>
+    <li>I can guide you in setting up projects and coding environments.</li>
+  </ul>
+
+  <button onclick="addActivity()">Add New Activity</button>
+
+  <script>
+    function addActivity() {
+      let newActivity = prompt("What new activity can you do?");
+      if (newActivity) {
+        let ul = document.getElementById('activities');
+        let li = document.createElement('li');
+        li.textContent = newActivity;
+        ul.appendChild(li);
+      }
+    }
+  </script>
+
+</body>
+</html>

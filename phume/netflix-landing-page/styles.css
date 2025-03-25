@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .btn-signin {
+    background: #e50914;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .btn-signin:hover {
+    background: #f6121d;
+  }
+  
+  .hero {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/1a998833-96d5-47a5-93a4-c497a06228da/6e1fa89f-34fc-4557-999e-568931db1586/ZA-en-20230424-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .email-form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .email-form input {
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
+  .email-form button {
+    padding: 1rem;
+    font-size: 1rem;
+    background: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .email-form button:hover {
+    background: #f6121d;
+  }
+  
+  .features {
+    padding: 3rem 1rem;
+    background: #141414;
+    text-align: center;
+  }
+  
+  .features h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .feature-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .feature {
+    width: 30%;
+  }
+  
+  .btn-tv {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .btn-tv:hover {
+    background-color: #f6121d;
+  }
+  
+  .tv-section {
+    background-color: #333;
+    padding: 3rem 1rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .tv-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  
+  footer {
+    background-color: #141414;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .footer-links li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
